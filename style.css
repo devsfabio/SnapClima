@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background: #f3f4fb;
+  background: #2f487e;
   font-family: "inter", "sans-serif";
 }
 .header,
@@ -53,7 +53,7 @@ body {
   font-family: "ubunto", sans-serif;
 }
 .header__current-date {
-  color: #a2a2be;
+  color: #a3a3d1;
   font-size: 14px;
   margin-top: 15px;
 }
@@ -73,14 +73,14 @@ body {
   margin-top: 15px;
 }
 .current-temperature__description {
-  color: #b6aefd;
+  color: #f6f5f8;
   font-weight: 500;
   font-size: 24px;
   margin-top: 30px;
 }
 .current-temperature__info-label {
   margin-top: 15px;
-  color: #a2a2be;
+  color: #b0b0e0;
 }
 .current-temperature__current-temperature {
   font-size: 24px;
@@ -105,13 +105,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-right: 1px solid #a2a2be;
+  border-right: 1px solid #6161f0;
 }
 .temperature-details__item:last-child {
   border: none;
 }
 .temperature-details__label {
-  color: #a2a2be;
+  color: #63636b;
 }
 .temperature-details__value,
 .sunset-sunrise__value {
