@@ -3,8 +3,11 @@
   padding: 0;
 }
 body {
-  background: #2f487e;
+  background-image: url(./WhatsApp\ Image\ 2023-09-13\ at\ 18.36.19.jpeg);
   font-family: "inter", "sans-serif";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .header,
 .temperature-details,
@@ -29,6 +32,9 @@ body {
   border-radius: 10px 0 0 10px;
   appearance: none;
   margin-right: -15px;
+}
+.header__input:hover {
+  opacity: 15%;
 }
 .header__button {
   cursor: pointer;
@@ -86,8 +92,10 @@ body {
   font-size: 24px;
   font-weight: 500;
   margin-top: 10px;
+  color: rgb(240, 239, 237);
 }
 .botton-container {
+  margin-bottom: 250px;
   background: #fff;
   position: absolute;
   bottom: 0;
